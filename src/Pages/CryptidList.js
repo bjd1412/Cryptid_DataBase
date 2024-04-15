@@ -13,12 +13,22 @@ function CryptidList () {
       setSearch(e.target.value)
   }
 
+  const AllCryptids = crypt.filter(crip => {
+   if(search === ""){
+       return true
+   } else if( crip.name.toLowerCase().includes(search.toLowerCase())){
+       return true
+   } else{ return false}
+  
+})
+
+
 
    return(
       <div className="Main">
       <h2 className="List">Cryptid List:</h2>
       <input className="List"  name="search" placeholder="Search Cryptid..." value={search} onChange={SearchChange}></input>
-      <CryptidCards />
+      <CryptidCards AllCryptids={AllCryptids} />
       <Submissions/>
       </div>
    )
