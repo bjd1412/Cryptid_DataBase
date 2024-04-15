@@ -1,9 +1,21 @@
 
 import './App.css';
-
+import CryptImage from "./imgs/CryptImage.jpg"
+import NavBar from './Components/NavBar';
+import { Outlet } from 'react-router-dom';
 function App() {
   return (
-   <h1>Hello World</h1>
+    <div className="App">
+      
+    <header className="App-header">
+      <img src={CryptImage} alt='Cryptid Image' />
+     <NavBar/>
+    </header>
+    <main>
+    <Outlet/>
+    </main>
+  
+  </div>
   );
 }
 
