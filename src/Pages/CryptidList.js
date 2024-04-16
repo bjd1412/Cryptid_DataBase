@@ -9,6 +9,10 @@ function CryptidList () {
    const [crypt, setCrypt] = useOutletContext()
    const [search, setSearch] = useState("")
 
+   function HandleSubmit (NewCryptid) {
+      setCrypt([...crypt, NewCryptid])
+    }
+
    function SearchChange (e) {
       setSearch(e.target.value)
   }
