@@ -33,7 +33,7 @@ function CryptidList () {
       <h2 className="List">Cryptid List:</h2>
       <input className="List"  name="search" placeholder="Search Cryptid..." value={search} onChange={SearchChange}></input>
       <CryptidCards AllCryptids={AllCryptids} />
-      <Submissions/>
+      <Submissions onHandleSubmit={HandleSubmit}/>
       </div>
    )
     

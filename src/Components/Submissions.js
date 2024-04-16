@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function Submissions () {
+function Submissions ({onHandleSubmit}) {
     const [name, setName] = useState("")
     const [origin, setOrigin] = useState("")
     const [lore, setLore] = useState("")
