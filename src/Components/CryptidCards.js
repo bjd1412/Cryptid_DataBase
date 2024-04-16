@@ -1,11 +1,13 @@
 import React from "react";
 import CryptidInfo from "../Components/CryptidInfo"
 
-function CryptidCards (){
+function CryptidCards ({AllCryptids}){
 
     return(
         <div>
-            
+             <div className="CryptList">
+            {AllCryptids.map(crip => (<CryptidInfo key={crip.id} id={crip.id} name={crip.name} origin={crip.origin}/>))}
+        </div>
         </div>
     )
 }
