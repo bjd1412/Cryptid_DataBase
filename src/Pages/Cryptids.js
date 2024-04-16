@@ -11,9 +11,18 @@ function Cryptids () {
         .then(res => res.json())
         .then(res => setCryptid(res))
     },[cryptidId])
+
+    if(!cryptid.name) {
+        return <h1>Loading...</h1>
+    }
     
     return (
-        <h1>Placeholder</h1>
+        <div className="Main">
+        <h1>{cryptid.name}</h1>
+        <img className="CryptidImages" src={cryptid.image}/>
+        <span>{cryptid.origin}</span>
+        <p>{cryptid.lore}</p>
+        </div>
     )
 }
 
