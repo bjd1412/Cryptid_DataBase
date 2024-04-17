@@ -93,3 +93,20 @@ input[type=submit]:hover {
     border: #ccc;
     border-radius: 4px;
 }
+.CryptList a:hover{
+  background-color: rgb(58, 57, 57);
+}
+.link-class{
+ height: 30px;
+ font-size: larger;
+}
+
+.Label{
+  text-align: center;
+  margin: auto;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
