@@ -20,7 +20,7 @@ function Cryptids () {
         <div className="Main">
         <h1>{cryptid.name}</h1>
         <img className="CryptidImages" src={cryptid.image}/>
-        <span>{cryptid.origin}</span>
+        <span>Origin: {cryptid.origin}</span>
         <p>{cryptid.lore}</p>
         </div>
     )
