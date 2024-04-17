@@ -18,8 +18,22 @@
       "id": "1a0c",
       "name": "Jersey Devil",
       "origin": "New Jersey",
-      "lore": "Thats one crazy Canine",
+      "lore": "The New Jersey Pinelands, known for its pine trees and sandy roads, harbors a legendary figure: the Jersey Devil. Designated as the country’s sole state demon in 1938, it's described as a creature resembling a kangaroo with a horse-like face, dog-like head, bat-like wings, horns, and a tail. For over 250 years, this enigmatic being has supposedly roamed the Southern New Jersey marshes, occasionally emerging to wreak havoc in towns and cities. Numerous tales recount its exploits, from raiding chicken coops and farms to destroying crops and killing animals. Its presence has been reported in around fifty towns as it traverses Southern New Jersey, alternately intriguing and terrorizing residents. Despite numerous attempts to capture it, including offers of hefty rewards, the Jersey Devil has eluded capture, and reports of its demise remain inconclusive. Even the scientific community has struggled to explain its existence.",
       "image": "https://cdn.mos.cms.futurecdn.net/x5N5rTtcNiUi6QB5XFZnB7-1200-80.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Loch Ness Monster",
+      "origin": "Loch Ness, Scotland",
+      "lore": "The Loch Ness Monster, often referred to as Nessie, is a legendary creature said to inhabit Loch Ness, a large freshwater lake in Scotland. Descriptions typically portray Nessie as a large, long-necked, aquatic creature resembling a plesiosaur or other prehistoric reptile. Sightings of the Loch Ness Monster have been reported for centuries, though there is no conclusive scientific evidence of its existence. The legend of Nessie has become a prominent part of Scottish folklore and has attracted significant attention from cryptozoologists and tourists alike.",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2012/11/22/19/beast2.getty.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Mongolian Death Worm",
+      "origin": "Gobi Desert of Mongolia and China",
+      "lore": "The Mongolian Death Worm is believed to inhabit the vast Gobi Desert of Mongolia and China. Descriptions suggest it can reach over five feet in length and grow several feet thick, sometimes even larger. These creatures burrow underground, patiently waiting until prey passes by, then swiftly bursting from the earth. Their ability to tunnel through both dirt and rocky terrain makes them formidable hunters. In winter, they lie dormant, but during warmer months, particularly in June and July, they become active hunters, often surfacing after rainfall when the ground is wet. Despite their seemingly unassuming appearance, they are powerful ambush predators capable of swift underground movement.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Allghoikhorkhoi.jpg"
     }
   ]
 }

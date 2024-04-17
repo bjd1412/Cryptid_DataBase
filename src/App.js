@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       
     <header className="App-header">
-      <img src={CryptImage} alt='Cryptid Image' />
+      <img src={CryptImage} alt='Cryptid Image' className="HeaderImage" />
      <NavBar/>
     </header>
     <main>
