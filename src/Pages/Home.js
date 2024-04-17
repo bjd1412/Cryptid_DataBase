@@ -19,7 +19,16 @@ function Home () {
             <th>Giant Otter </th>
             <th>Okapi<br/></th>
         </tr>
+        <tr>
+            <td>Discovered: 1910</td>
+            <td>Discovered: 2007</td>
+            <td>Discovered: 1902</td>
+            <td>Discovered: 1938</td>
+            <td>Discovered: 2010</td>
+            <td>Discovered: 1901</td>
+        </tr>
         </table>
+      
         </div>
         
     )
