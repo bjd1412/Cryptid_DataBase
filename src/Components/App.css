@@ -6,11 +6,15 @@
 body{
   margin: 0;
   padding: 10px;
-  background-color: rgb(10, 70, 37);
+  background-color: rgb(224, 224, 224);
   text-align: center;
   margin: 1em;
   list-style: none;
 }
+.App-link {
+  color: #61dafb;
+}
+
 
 .Main {
   margin: auto;
@@ -36,6 +40,11 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+.HeaderImage{
+  margin: auto;
+  max-width: 1385px;
+  transform: translate(0, 0.8%) ;
+}
 input[type=submit] {
   width: 100%;
   background-color: #04AA6D;
@@ -59,6 +68,15 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
 
+}
+.CryptidImages{
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width:400px;
+  max-height: 390px;
 }
 
 .List {
@@ -109,4 +127,16 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
 
+}
+.Table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
