@@ -1,20 +1,19 @@
 {
   "cryptids": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Mothman",
       "origin": "West Virginia",
       "lore": "In West Virginian folklore, Mothman is a humanoid creature said to have appeared in Point Pleasant from November 15, 1966, to December 15, 1967. Two couples reported seeing a tall figure with glowing red eyes near an old munitions plant. Descriptions varied, with witnesses describing it as a muscular man with white wings. The sightings attracted attention after local newspapers covered the story, with additional reports from others, including volunteer firemen who described it as a large bird with red eyes.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrM2_JadZrYkHZUseGstXxY6WHQkJEKpVnHIObAWfbN01MKGdsBFic4QmLq_8Q0WHXsWc&usqp=CAU"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Sasquatch",
       "origin": "North America",
       "lore": "Bigfoot, also commonly referred to as Sasquatch, is a large and hairy human-like mythical creature alleged by some to inhabit forests in North America, particularly in the Pacific Northwest. It is featured in both American and Canadian folklore. Folklorists trace the phenomenon of Bigfoot to a combination of factors and sources, including the European wild man figure, folk tales, and indigenous cultures. Examples of similar folk tales of wild, hair-covered humanoids exist throughout the world, such as the Skunk ape of the southeastern United States, the Almas, Yeren, and Yeti in Asia, and the Australian Yowie, as well as creatures in the mythologies of indigenous people. Bigfoot is often described as a large, muscular, and bipedal human or ape-like creature covered in black, dark brown, or dark reddish hair. Anecdotal descriptions estimate a height of roughly 6 to 9 feet (1.8 to 2.7 m), with some descriptions having the creatures standing as tall as 10 to 15 feet (3.0 to 4.6 m).",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5HAxVqkbX_TMAGi-LcYJig88Tf5dzoZN0Mnba6ji_YImMPXe5Ff1cPE07pINzDiv4Oc&usqp=CAU"
     },
-     
     {
       "id": "1a0c",
       "name": "Jersey Devil",

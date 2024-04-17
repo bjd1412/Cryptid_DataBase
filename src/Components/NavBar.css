@@ -1,16 +1,32 @@
-.nav-link{
-    display: inline-block;
-    box-sizing: border-box;
-    max-width: 200px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: blue;
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: white;
+body{
+    margin:0%;
 }
-  
-.active {
-    color: red;
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0%;
+    margin:0%;
+    overflow: hidden;
+    max-width: 1385px;
+    transform: translate(18% ,0%) ;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: black;
 }
