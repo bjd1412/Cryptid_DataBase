@@ -34,6 +34,34 @@
       "origin": "Gobi Desert of Mongolia and China",
       "lore": "The Mongolian Death Worm is believed to inhabit the vast Gobi Desert of Mongolia and China. Descriptions suggest it can reach over five feet in length and grow several feet thick, sometimes even larger. These creatures burrow underground, patiently waiting until prey passes by, then swiftly bursting from the earth. Their ability to tunnel through both dirt and rocky terrain makes them formidable hunters. In winter, they lie dormant, but during warmer months, particularly in June and July, they become active hunters, often surfacing after rainfall when the ground is wet. Despite their seemingly unassuming appearance, they are powerful ambush predators capable of swift underground movement.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Allghoikhorkhoi.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Nandi Bear",
+      "origin": "East Africa",
+      "lore": "In East African folklore, the Nandi bear is said to inhabit the region, particularly where the Nandi people live in western Kenya. Descriptions portray it as a formidable carnivore, standing over four feet tall with high front shoulders and a sloping back. According to legend, it is nocturnal, capable of standing on its hind legs, and known for its ability to kill animals. Charles William Hobley even produced a diagram of its supposed foot in 1913. Locally known as 'kerit' by the Nandi people, it is described as having reddish hair, long feet, and is rumored to scalp people. Sightings of the Nandi bear were once common, with reports throughout the 19th and early 20th centuries, but it has never been captured or conclusively identified. Over time, sightings have become less frequent, and in 1905, Richard Meinertzhagen speculated that it might have been an extinct anthropoid ape due to changes in environmental conditions.",
+      "image": "https://preview.redd.it/the-nandi-bear-of-east-africa-v0-vpgo5nuzfxvb1.jpg?width=640&crop=smart&auto=webp&s=46dcf4bf8c8cf0cfd75fa319006fa18451391dff"
+    },
+    {
+      "id": "6",
+      "name": "Chupacabra",
+      "origin": "Puerto Rico, and Latin America",
+      "lore": "The Chupacabra, dubbed 'the goatsucker' in Spanish, is a legendary creature notorious for attacking livestock such as chickens, goats, and pets across the Americas, notably in the Southwestern United States, Mexico, and Puerto Rico. There are two main versions: a reptilian type and a canid type, also called blue dogs, with over 2,000 sightings reported. These creatures allegedly emit a peculiar noise while sucking blood. The first known attacks occurred in March 1995 in Puerto Rico, where eight sheep were found dead, completely drained of blood with three unusual puncture wounds in their chests. Initially attributed to known predators like foxes, some saw parallels with mysterious cattle mutilations in the American Southwest. Madelyne Tolentino, the first to sight the creature, provided an eyewitness description that led to the most famous drawing of the Chupacabra worldwide.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chupacabra_%28artist%27s_rendition%29.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Skin-Walker",
+      "Origin": "The Navajo Natives",
+      "lore": "In Navajo tradition, a skin-walker is a sinister witch with the uncanny ability to shape-shift into animals, possess them, or take on their guise. These witches stand diametrically opposed to Navajo values, using their powers for malevolent ends. While traditional healers, known as medicine people, may delve into both benevolent and malevolent magic to shield against harm, those who choose the path of witchcraft are condemned as morally corrupt. Associated with cunning creatures like coyotes, skin-walkers are believed to not only usurp identities but also feed off the fear they sow. It's believed that merely uttering their name can beckon forth negativity and misfortune.",
+      "image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2024/03/skinwalker.jpg"
+    },
+    {
+      "id": "5e06",
+      "name": "Wendigo",
+      "origin": "North America",
+      "lore": " The Wendigo is often described as a malevolent spirit or depicted as a creature with human-like features that can possess humans. It instills in its victims an insatiable hunger for human flesh, driving them to commit acts of cannibalism and murder. In modern psychiatry, 'Wendigo psychosis' is identified by symptoms such as an intense craving for human flesh and a fear of becoming a cannibal. This disorder is recognized as a culture-bound syndrome. Some First Nations communities associate symptoms like insatiable greed and environmental destruction with Wendigo psychosis.  The Wendigo is deeply ingrained in the traditional belief systems of several Algonquin-speaking peoples, including the Ojibwe, Saulteaux, Cree, Naskapi, and Innu. It symbolizes gluttony, greed, and excess, perpetually unsatisfied after consuming one victim and always seeking new prey.",
+      "image": "https://miro.medium.com/v2/resize:fit:1200/1*l6Vj_YgJKF5RuLLLdwqRaQ.png"
     }
   ]
 }
