@@ -1,5 +1,5 @@
 
-import './App.css';
+import "./Components/App.css"
 import CryptImage from "./imgs/CryptImage.jpg"
 import NavBar from './Components/NavBar';
 import { Outlet } from 'react-router-dom';
