@@ -7,7 +7,7 @@ function Submissions ({onHandleSubmit}) {
     const [lore, setLore] = useState("")
     const [image, setImage] = useState("")
 
-    function Submitter (e) {
+    function submitter (e) {
         e.preventDefault()
         const NewForm = {
             name: name,
@@ -30,7 +30,7 @@ function Submissions ({onHandleSubmit}) {
     return(
         <div className="SubmitForm">
             <h2>Do you know of a cryptid that isnt on the list? <br/> Contribute to the database, and add them to the list.</h2>
-            <form className="NewCryptid" onSubmit={Submitter}>
+            <form className="NewCryptid" onSubmit={submitter}>
                 <label  className="Label"> Cryptid Name </label> 
                 <input type="text" name="CryptidName" placeholder="Cryptid Name..." value={name} onChange={(e) => setName(e.target.value)}/>
                 <label  className="Label"> Cryptid Origin </label>

@@ -9,11 +9,11 @@ function CryptidList () {
    const [crypt, setCrypt] = useOutletContext()
    const [search, setSearch] = useState("")
 
-   function HandleSubmit (NewCryptid) {
+   function handleSubmit (NewCryptid) {
       setCrypt([...crypt, NewCryptid])
     }
 
-   function SearchChange (e) {
+   function searchChange (e) {
       setSearch(e.target.value)
   }
 
@@ -31,9 +31,9 @@ function CryptidList () {
    return(
       <div className="Main">
       <h2 className="List">Cryptid List:</h2>
-      <input className="List"  name="search" placeholder="Search Cryptid..." value={search} onChange={SearchChange}></input>
+      <input className="List"  name="search" placeholder="Search Cryptid..." value={search} onChange={searchChange}></input>
       <CryptidCards AllCryptids={AllCryptids} />
-      <Submissions onHandleSubmit={HandleSubmit}/>
+      <Submissions onHandleSubmit={handleSubmit}/>
       </div>
    )
     
