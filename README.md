@@ -21,6 +21,7 @@ Look through, or search for any cryptid you want to learn about, and click on th
 
 - **Cryptid Database Submission Form**
 Below the list of cryptids is a cryptid form. You can submit any cryptid that you desire to be in the list yourself. It will update the list, immediately allowing you and others to see the cryptid that was submitted.
+
 ![ReferenceGif](/gifs/Submit.gif)
 
 
