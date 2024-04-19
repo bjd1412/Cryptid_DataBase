@@ -2,7 +2,7 @@ function Home () {
     
     return(
         <div className="Main">
-        <h1>Welcome To The Cryptid DataBase</h1>
+        <h1>Welcome To The Cryptid Database</h1>
         <img src="https://blogs.loc.gov/headlinesandheroes/files/2022/10/sea-serpents-768x465.jpg" alt="What are cryptids?" id="Image"/>
         <h3>Cryptozoology and "Cryptids"</h3>
         <p>Cryptozoology is a pseudoscience and subculture dedicated to the search for and study of unknown, legendary, or extinct animals whose current existence is questioned or unverified.<br/> 
