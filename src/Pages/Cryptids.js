@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 
 function Cryptids () {
-    const [cryptid, setCryptid] = useState({})
+    const [cryptid, setCryptid] = useState({}) 
     const params = useParams()
     const cryptidId = params.id
 
