@@ -15,6 +15,11 @@ function Submissions ({onHandleSubmit}) {
             lore: lore,
             image: image
         }
+        setName("")
+        setImage("")
+        setLore("")
+        setOrigin("")
+
         fetch("http://localhost:3000/cryptids", {
             method: "POST",
             headers:{
@@ -36,7 +41,7 @@ function Submissions ({onHandleSubmit}) {
                 <label  className="Label"> Cryptid Origin </label>
                 <input type="text" name="origin" placeholder="Origin..." value={origin} onChange={(e) => setOrigin(e.target.value)}/>
                 <label  className="Label">Cryptid Lore</label>
-                <input type="text" name="lore" placeholder="Lore..." size="200" className="Big Box" value={lore} onChange={(e) => setLore(e.target.value)}/>
+                <input type="text" name="lore" placeholder="Lore..." size="200" maxLength={200} className="Big Box" value={lore} onChange={(e) => setLore(e.target.value)}/>
                 <label className="Label">Cryptid Image</label>
                 <input type="text" name="image" placeholder="image url..." value={image} onChange={(e) => setImage(e.target.value)}/>
                 <input type="submit" value="Submit" />  

@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import CryptidCards from "../Components/CryptidCards";
 import Submissions from "../Components/Submissions";
@@ -25,9 +25,6 @@ function CryptidList () {
    } else{ return false}
   
 })
-
-
-
    return(
       <div className="Main">
       <h2 className="List">Cryptid List:</h2>
