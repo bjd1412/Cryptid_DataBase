@@ -4,6 +4,8 @@ import CryptImage from "./imgs/CryptImage.jpg"
 import NavBar from './Components/NavBar';
 import { Outlet } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import CryptidContext from "./Components/CryptidContext";
+
 function App() {
   const [crypt, setCrypt] = useState([])
     
@@ -13,6 +15,9 @@ function App() {
       .then(res => setCrypt(res))
   }, [])
   
+  function handleSubmit (NewCryptid) {
+    setCrypt([...crypt, NewCryptid])
+  }
   
   return (
     <div className="App">
@@ -22,8 +27,11 @@ function App() {
      <NavBar/>
     </header>
     <main>
-    <Outlet context={[crypt, setCrypt]}/>
-    </main>
+    <CryptidContext.Provider value={{ crypt, setCrypt, handleSubmit }}>
+          <Outlet />
+    </CryptidContext.Provider>
+      </main>
+    
   
   </div>
   );

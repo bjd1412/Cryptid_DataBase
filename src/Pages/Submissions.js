@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useState } from "react";
+import CryptidContext from "../Components/CryptidContext";
 
-function Submissions ({onHandleSubmit}) {
+
+function Submissions () {
     const [name, setName] = useState("")
     const [origin, setOrigin] = useState("")
     const [lore, setLore] = useState("")
     const [image, setImage] = useState("")
+    const {handleSubmit} = useContext(CryptidContext)
 
     function submitter (e) {
         e.preventDefault()
@@ -28,7 +31,7 @@ function Submissions ({onHandleSubmit}) {
             body: JSON.stringify(NewForm)
         })
         .then(res => res.json())
-        .then(NewCryptid => onHandleSubmit(NewCryptid))
+        .then(NewCryptid => handleSubmit(NewCryptid))
 
     }
 

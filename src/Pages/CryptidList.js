@@ -1,17 +1,15 @@
 import React from "react";
 import {  useState } from "react";
-import { useOutletContext } from "react-router-dom";
 import CryptidCards from "../Components/CryptidCards";
-import Submissions from "../Components/Submissions";
+import CryptidContext from "../Components/CryptidContext";
+import { useContext } from "react";
 
 
 function CryptidList () {
-   const [crypt, setCrypt] = useOutletContext()
+   const {crypt, setCrypt} = useContext(CryptidContext)
    const [search, setSearch] = useState("")
 
-   function handleSubmit (NewCryptid) {
-      setCrypt([...crypt, NewCryptid])
-    }
+  
 
    function searchChange (e) {
       setSearch(e.target.value)
@@ -30,7 +28,6 @@ function CryptidList () {
       <h2 className="List">Cryptid List:</h2>
       <input className="List"  name="search" placeholder="Search Cryptid..." value={search} onChange={searchChange}></input>
       <CryptidCards AllCryptids={AllCryptids} />
-      <Submissions onHandleSubmit={handleSubmit}/>
       </div>
    )
     
