@@ -6,8 +6,8 @@ function CryptidCards ({AllCryptids}){
     return(
         <div>
              <div className="CryptList">
-            {AllCryptids.map(crip => (<CryptidInfo key={crip.id} id={crip.id} name={crip.name} origin={crip.origin}/>))}
-        </div>
+            {AllCryptids.map(crip => (<CryptidInfo key={crip.id} id={crip.id} name={crip.name}/>))}
+            </div>
         </div>
     )
 }
